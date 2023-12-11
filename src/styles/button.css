@@ -1,0 +1,35 @@
+button{
+  padding: 8px 12px;
+  color: var(--color-grey-0);
+  background-color: var(--color-grey-8);
+  border: solid 1px var(--color-grey-8);
+  font-size: var(--font-3);
+  border-radius: var( --radius-1);
+}
+
+button:hover{
+  color: var(--color-hover-2);
+  background-color: var(--color-hover);
+  border: solid 1px var(--color-hover-3);
+}
+
+.button__album{
+  padding: 8px 12px;
+  color: var(--color-grey-0);
+  background-color: var(--color-grey-7);
+  border: solid 1px var(--color-grey-7);
+  font-size: var(--font-3);
+  border-radius: var( --radius-1);
+}
+
+.button__album:hover{
+  color: var(--color-hover-2);
+  background-color: var(--color-hover);
+  border: solid 1px var(--color-hover-3);
+}
+
+.active{
+  color: var(--color-hover-2);
+  background-color: var(--color-hover);
+  border: solid 1px var(--color-hover-3);
+}

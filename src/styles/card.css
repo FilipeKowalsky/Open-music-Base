@@ -1,0 +1,40 @@
+.card__container{
+  max-width: 700px;
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card{
+  width: 325px;
+  background-color: var(--color-grey-8);
+  border-radius: var(--radius-1);
+}
+
+.card > img{
+  border-radius: var(--radius-1) var(--radius-1) 0 0;
+}
+
+.title__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.card > h2{
+  margin-left: 10px
+}
+
+img{
+  width: 100%;
+}
+
+.price__container{
+  margin: 20px 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
